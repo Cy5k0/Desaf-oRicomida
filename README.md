@@ -1,4 +1,6 @@
-Descripción
+# Desafío Ricomida
+## Descripción
+
 El siguiente desafío permitirá al estudiante practicar las habilidades adquiridas hasta el
 momento en relación con HTML, CSS, Bootstrap y jQuery. Por consiguiente, este desafío
 consiste en la construcción de una página web relacionada con la preparación de comidas y
