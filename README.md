@@ -2,7 +2,7 @@
 ## Descripción
 
 El siguiente desafío permitirá al estudiante practicar las habilidades adquiridas hasta el
-momento en relación con HTML, CSS, Bootstrap y jQuery. Por consiguiente, este desafío
+momento en relación con [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS), [Bootstrap](https://getbootstrap.com/) y [jQuery.](https://jquery.com/) Por consiguiente, este desafío
 consiste en la construcción de una página web relacionada con la preparación de comidas y
 muestra de recetas, donde todo el sitio debe estar construido con características
 responsivas, partiendo de una maqueta con su guía de estilos, en donde tendrán que
