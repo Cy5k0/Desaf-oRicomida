@@ -51,7 +51,10 @@ html, body {
     width: 80%;
   }
   
-  .container-header {
+.plato img{
+    
+}  
+  .plato {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -68,18 +71,20 @@ html, body {
     padding:50px;
 }
 
-#img-header img {
+.plato img {
     width: 100%;
     height: auto;
+    padding-top: 50px;
     
 }
 
 .recipe-info {
     flex: 1;
-    max-width: 50%;
+    max-width: 100%;
     padding:50px;
     font-family: "cabin",sans-serif;
 }
+
 
 .separador_mid {
     width: 100%;
@@ -103,6 +108,7 @@ html, body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 .preparacion {
   flex: 1;
