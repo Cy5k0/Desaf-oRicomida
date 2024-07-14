@@ -1,6 +1,10 @@
 # Desafío Ricomida
 ## Descripción
 
+En el curso de desarrollo web, me tocó realizar un desafio que es un proyecto sobre realizar una pagina web usando las tencnologias de HTML, CSS, Bootstrap, JQuery.  Adémas el sitio web debe ser responsivo al display con que se vea.
+
+## Las instrucciones fueron las siguientes:
+
 El siguiente desafío permitirá al estudiante practicar las habilidades adquiridas hasta el
 momento en relación con [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS), [Bootstrap](https://getbootstrap.com/) y [jQuery.](https://jquery.com/) Por consiguiente, este desafío
 consiste en la construcción de una página web relacionada con la preparación de comidas y
