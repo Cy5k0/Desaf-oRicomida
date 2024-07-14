@@ -73,7 +73,7 @@ html, body {
 
 .plato img {
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-top: 50px;
     
 }
@@ -81,10 +81,18 @@ html, body {
 .recipe-info {
     flex: 1;
     max-width: 100%;
-    padding:50px;
+    padding-top:50px;
+    padding-right: 230px ;
     font-family: "cabin",sans-serif;
 }
 
+.recipe-info h2 {
+    font-size: 40pt;
+}
+
+.recipe-info p {
+    font-size: 20pt;
+}
 
 .separador_mid {
     width: 100%;
