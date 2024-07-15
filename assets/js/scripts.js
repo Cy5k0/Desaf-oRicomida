@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     //carousel
 
-    var myCarousel = new bootstrap.Carousel(document.getElementById('#carouselPlatos'), {
-        interval: false 
+    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselPlatos'), {
+        interval: false
     });
 
 
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
+    });
 
 
 });
