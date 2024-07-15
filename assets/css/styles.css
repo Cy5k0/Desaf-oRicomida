@@ -101,26 +101,89 @@ body {
     gap: 20px;
 }
 
+.recetas-relacionadas-titulo {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
+    color:#DDDDDD;
 }
 
 .f1 {
     background-color: #DC3545;
-    padding: 20px;
+    padding: 50px 20px;
+    font-family: "cabin", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.f1 p {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.f1_logo {
+    font-family: "Lobster", cursive;
+    font-size: 24px;
 }
 
 .f2 {
     background-color: #373A3C;
-    padding: 10px;
+    padding: 20px;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px; 
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .f1 {
+        padding: 80px 30px;
+        font-size: 20px;
+    }
+
+    .f1 p {
+        font-size: 26px;
+    }
+
+    .f1_logo {
+        font-size: 28px;
+    }
+
+    .f2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .f1 {
+        padding: 100px 40px;
+        font-size: 22px;
+    }
+
+    .f1 p {
+        font-size: 30px;
+    }
+
+    .f1_logo {
+        font-size: 32px;
+    }
+
+    .f2 {
+        font-size: 50px;
+    }
 }
 
 /* Media queries */
 @media (max-width: 768px) {
     .plato .row {
         flex-direction: column;
+    }
     }
 
     .recipe-info {
@@ -129,14 +192,34 @@ footer {
 
     .button-group {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        
     }
 
     .button-group button {
-        margin-bottom: 10px;
+        background-color: white;
+        border: 1px solid #DDDDDD;
+        color: #373A3C;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        /* margin-bottom: 10px; */
+ 
     }
-}
+
+    @media (max-width: 600px) {
+        .button {
+          width: 100%;
+        }
+      }
+
 
 @media (max-width: 576px) {
     .recipe-info h2 {
@@ -150,6 +233,8 @@ footer {
 
 
 /*-----*/
+
+/*---------Botones------------*/
 
 .ingredientes, .preparacion {
     margin-bottom: 30px;
@@ -176,4 +261,112 @@ footer {
     .ingredientes, .preparacion {
         margin-bottom: 40px;
     }
+}
+
+/*--------------fin botons--------*/
+
+
+
+/*------------Carousel------------------*/
+.carousel-container {
+    max-width: 80%;  
+    margin: 0 auto;    
+  }
+
+  .carousel-image-wrapper {
+    width: 22%; 
+  }
+
+
+
+  
+@media (max-width: 768px) {
+    .carousel-image-wrapper {
+      width: 48%;  
+    }
+}
+
+
+  .carousel-image-wrapper {
+    width: 22%;  
+  }
+  
+  .carousel-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 250px;  
+  }
+  
+  /* Para hacer el carrusel responsive */
+  @media (max-width: 768px) {
+    .carousel-image-wrapper {
+      width: 48%;  
+    }
+}
+
+
+
+
+
+.carousel-inner .carousel-item-end.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-start.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+
+.carousel-control-prev{
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.carousel-control-next{
+    padding-top: 50px;
+    padding-left:100px;
+}
+
+
+/*-----------------------fin carousel-----------*/
+
+.red-text {
+    color: red;
+}
+
+
+.recipe-card .card-title {
+    cursor: pointer;
+}
+
+.recipe-card .card-content {
+    transition: all 0.3s ease;
+}
+
+
+hr {
+    background-color:#373A3C;
 }
